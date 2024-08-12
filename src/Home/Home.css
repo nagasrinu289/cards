@@ -1,5 +1,5 @@
 /* Styles for the h1 element */
-h1 {
+.h-h1 {
     font-size: 30px;
     margin: auto;
     width: 50%;
@@ -7,9 +7,7 @@ h1 {
   }
   
   /* Styles for the div container */
-  div {
-    margin-top: 20px;
-  }
+  
   
   /* Styles for the label element */
   label {
@@ -42,7 +40,7 @@ h1 {
   
 
   /* Styles for the button element */
-button {
+.h-btn {
     padding: 10px 20px;
     width: 50%;
     margin-top: 20%;

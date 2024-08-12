@@ -6,9 +6,9 @@ const Home = () => {
   const [url,setUrl] = useState("/test/SQL");
   return (
     <>
-    <h1>Quiz App</h1>
+    <h1 className='h-h1'>Quiz App</h1>
     <div>
-        <label htmlFor='selectid'>exam</label>
+        <label htmlFor='selectid'>Select exam</label>
     <select id='selectid' onChange={(e)=>{
       setUrl("/test/"+e.target.value);
     }}>
@@ -18,7 +18,7 @@ const Home = () => {
         <option>Docker</option>
     </select>
     </div>
-    <Link to={url}><button>Submit</button></Link>
+    <Link to={url}><button className='h-btn'>Submit</button></Link>
     </>
   )
 }
