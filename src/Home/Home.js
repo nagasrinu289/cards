@@ -5,7 +5,7 @@ import { useState } from 'react';
 const Home = () => {
   const [url,setUrl] = useState("/test/SQL");
   return (
-    <>
+    <div className='h-container'>
     <h1 className='h-h1'>Quiz App</h1>
     <div>
         <label htmlFor='selectid'>Select exam</label>
@@ -19,7 +19,7 @@ const Home = () => {
     </select>
     </div>
     <Link to={url}><button className='h-btn'>Submit</button></Link>
-    </>
+    </div>
   )
 }
 

@@ -3,17 +3,26 @@
     font-size: 30px;
     margin: auto;
     width: 50%;
+    margin-left: 45%;
     color: #333;
   }
   
-  /* Styles for the div container */
-  
-  
-  /* Styles for the label element */
   label {
     font-size: 20px;
     margin-right: 5px;
     color: #666;
+  }
+  .h-container{
+    background-color: rgb(183, 167, 167);
+    padding: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    width: 60%;
+    margin-left: 20%;
+    gap: 10px;
   }
   
   /* Styles for the select element */
@@ -27,22 +36,18 @@
     transition: border-color 0.3s ease;
   }
   
-  /* Styles for the select element when focused */
   select:focus {
     border-color: #007bff;
   }
   
-  /* Styles for the options inside the select element */
   option {
     font-size: 16px;
     color: #333;
   }
   
 
-  /* Styles for the button element */
 .h-btn {
     padding: 10px 20px;
-    width: 50%;
     margin-top: 20%;
     margin-left: 10%;
     font-size: 15px;
@@ -54,7 +59,6 @@
     transition: background-color 0.3s ease;
   }
   
-  /* Styles for the button element when hovered */
   button:hover {
     background-color: #0056b3;
   }
