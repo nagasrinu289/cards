@@ -1,0 +1,63 @@
+/* Styles for the h1 element */
+h1 {
+    font-size: 30px;
+    margin: auto;
+    width: 50%;
+    color: #333;
+  }
+  
+  /* Styles for the div container */
+  div {
+    margin-top: 20px;
+  }
+  
+  /* Styles for the label element */
+  label {
+    font-size: 20px;
+    margin-right: 5px;
+    color: #666;
+  }
+  
+  /* Styles for the select element */
+  select {
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Styles for the select element when focused */
+  select:focus {
+    border-color: #007bff;
+  }
+  
+  /* Styles for the options inside the select element */
+  option {
+    font-size: 16px;
+    color: #333;
+  }
+  
+
+  /* Styles for the button element */
+button {
+    padding: 10px 20px;
+    width: 50%;
+    margin-top: 20%;
+    margin-left: 10%;
+    font-size: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Styles for the button element when hovered */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
